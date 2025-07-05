@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product details-MY Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="180px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="product-details.html">About</a></li>
+                    <li><a href="cart.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="cart.png" width="30px" height="30px">
+            <img src="menu.png" class="menu-icon" onclick="menuToggle()">
+        </div>
+    </div>
+    <!-- ---------simple product details page------------ -->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="gallery1.png" width="100%" id="ProductImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="gallery1.png" width="97%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="gallery2.png" width="97%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="gallery3.png" width="97%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="gallery4.png" width="97%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="gallery5.png" width="97%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home/Trendy Outfits</p>
+                <h1>2Pcs Letter Print Trendy Outfits For Men</h1>
+                <h4>Rs.5,565 <span>6,350</span></h4>
+                <select>
+                    <option>Select size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <button class="btn">Add to Cart</button>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Casual Short Sleeve Baseball Jersey Shirts And Drawstring Shorts Set For Summer, Men's Clothing
+                    Vacation Workout</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------title------------- -->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+    <!-- ---------------Products---------------- -->
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="Product9.jpg">
+                <h4>2pcs Men'S Casual "ITALIA" Graphic T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.4,899</p>
+            </div>
+            <div class="col-4">
+                <img src="product10.jpg">
+                <h4>Men'S Short-Sleeved T-Shirt And Drawstring</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.4,900</p>
+            </div>
+            <div class="col-4">
+                <img src="product11.jpg">
+                <h4>Men's short-sleeved T-shirt and shorts set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.4,900</p>
+            </div>
+            <div class="col-4">
+                <img src="product12.jpg">
+                <h4>Men's Casual Striped Los Angeles Print Short Sleeve</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.4,565</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------footer------------ -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png" alt="">
+                        <img src="app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2025 - All Rights Reserved | <a href="#">SARA</a></p>
+        </div>
+    </div>
+
+    <script>
+        const menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menuToggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            } else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+
+        const ProductImg = document.getElementById("ProductImg");
+        const smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function () {
+            ProductImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            ProductImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            ProductImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function () {
+            ProductImg.src = smallImg[3].src;
+        }
+        smallImg[4].onclick = function () {
+            ProductImg.src = smallImg[4].src;
+        }</script>
+</body>
+
+</html>

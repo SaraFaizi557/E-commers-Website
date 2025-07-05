@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product details-MY Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="180px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="product-details.html">About</a></li>
+                    <li><a href="cart.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="cart.png" width="30px" height="30px">
+            <img src="menu.png" class="menu-icon" onclick="menuToggle()">
+        </div>
+    </div>
+
+    <!-- ------------ cart items detail ---------------- -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="gallery1.png">
+                        <div>
+                            <p>Printed T-Shirt with shorts</p>
+                            <small>Price: Rs.5,565</small>
+                            <br>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.5,565</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="product11.jpg"">
+                    <div>
+                        <p>2pcs Men'S Casual " ITALIA" Graphic T-Shirt</p>
+                        <small>Price: Rs.4,900</small>
+                        <br>
+                        <a href="#">Remove</a>
+                    </div>
+    </div>
+    </td>
+    <td><input type="number" value="1"></td>
+    <td>Rs.4,900</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="product12.jpg">
+                <div>
+                    <p>Men's Casual Striped Los Angeles Print Short Sleeve</p>
+                    <small>Price: Rs.4,565</small>
+                    <br>
+                    <a href="#">Remove</a>
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>Rs.4,565</td>
+    </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>Rs.15.03</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>Rs.2.63</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>Rs.17.66</td>
+            </tr>
+        </table>
+    </div>
+
+    </div>
+
+
+
+    <!-- ---------footer------------ -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png" alt="">
+                        <img src="app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2025 - All Rights Reserved | <a href="#">SARA</a></p>
+        </div>
+    </div>
+
+    <script>
+        const menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menuToggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            } else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

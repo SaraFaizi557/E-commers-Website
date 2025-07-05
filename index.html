@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +9,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <div class="header">
         <div class="container">
-        <div class="navbar">
-        <div class="logo">
-            <img src="logo.png"  width="180px">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="180px">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="product-details.html">About</a></li>
+                        <li><a href="cart.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px">
+                <img src="menu.png" class="menu-icon" onclick="menuToggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!</h1>
+                    <p>
+                        Success isn't always about greatness. It's about consistency.<br>Consistent hard work gains
+                        success. Greatness will come.
+                    </p>
+                    <a href="#" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="image.png">
+                </div>
+            </div>
         </div>
-        <nav>
-            <ul id="menuItems">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Account</a></li>
-            </ul>
-        </nav>
-        <img src="cart.png" width="30px" height="30px">
-        <img src="menu.png" class="menu-icon" onclick="menuToggle()">
-    </div>
-    <div class="row">
-        <div class="col-2">
-            <h1>Give Your Workout<br> A New Style!</h1>
-            <p>
-                Success isn't always about greatness. It's about consistency.<br>Consistent hard work gains success. Greatness will come.
-            </p>
-            <a href="#" class="btn">Explore Now &#8594;</a>
-        </div>
-        <div class="col-2">
-            <img src="image.png">
-        </div>
-        </div>
-    </div>
     </div>
 
     <!--------featured categories--------->
 
-     <div class="categories">
+    <div class="categories">
         <div class="small-container">
             <div class="row">
-            <div class="col-3">
-                <img src="category1.jpg">
-            </div>
-            <div class="col-3">
-                <img src="category2.jpg">
-            </div>
-            <div class="col-3">
-                <img src="category3.jpg">
+                <div class="col-3">
+                    <img src="category1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="category2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="category3.jpg">
+                </div>
             </div>
         </div>
-        </div>
-        
-     </div>
-        
+
+    </div>
+
     <!--------featured products--------->
 
     <div class="small-container">
@@ -161,7 +164,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                   <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <p>Rs.4,900</p>
@@ -230,7 +233,9 @@
                 <div class="col-2">
                     <p>Exclusively Available on MY Store</p>
                     <h1>Smart Band 4</h1>
-                    <small>Mi Smart Band 4 is a smart fitness band with a 0.95-inch AMOLED color display,<br> 24/7 heart rate monitoring, and up to 20 days of battery life. It tracks your daily<br> activities, sleep patterns, and supports multiple sports modes.</small>
+                    <small>Mi Smart Band 4 is a smart fitness band with a 0.95-inch AMOLED color display,<br> 24/7 heart
+                        rate monitoring, and up to 20 days of battery life. It tracks your daily<br> activities, sleep
+                        patterns, and supports multiple sports modes.</small>
                     <br>
                     <a href="#" class="btn">Buy Now &#8594;</a>
                 </div>
@@ -245,42 +250,45 @@
             <div class="row">
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>Great products and excellent customer service! I love the variety of options available. Highly recommend!</p>
+                    <p>Great products and excellent customer service! I love the variety of options available. Highly
+                        recommend!</p>
                     <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="user1.png" alt="">
+                    <h3>Sean Parker</h3>
                 </div>
-                <img src="user1.png" alt="">
-                <h3>Sean Parker</h3>
-                </div>
-                 <div class="col-3">
+                <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>Fantastic quality and fast shipping! The products exceeded my expectations. Will definitely shop here !</p>
+                    <p>Fantastic quality and fast shipping! The products exceeded my expectations. Will definitely shop
+                        here !</p>
                     <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="user2.png" alt="">
+                    <h3>Mike Smith</h3>
                 </div>
-                <img src="user2.png" alt="">
-                <h3>Mike Smith</h3>
-                </div>
-                 <div class="col-3">
+                <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>Great products and excellent customer service! I love the variety of options available. Highly recommend!</p>
+                    <p>Great products and excellent customer service! I love the variety of options available. Highly
+                        recommend!</p>
                     <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                </div>
-                <img src="user3.png" alt="">
-                <h3>Mable joe</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="user3.png" alt="">
+                    <h3>Mable joe</h3>
                 </div>
             </div>
         </div>
@@ -295,7 +303,7 @@
                     <img src="brand1.png" class="brand-img">
                 </div>
                 <div class="col-5">
-                    <img src="brand2.png" >
+                    <img src="brand2.png">
                 </div>
                 <div class="col-5">
                     <img src="brand3.png">
@@ -325,7 +333,8 @@
                 </div>
                 <div class="footer-col-2">
                     <img src="logo-white.png">
-                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.
+                    </p>
                 </div>
                 <div class="footer-col-3">
                     <h3>Useful Links</h3>
@@ -350,6 +359,19 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        const menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menuToggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            } else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
+
 </html>
